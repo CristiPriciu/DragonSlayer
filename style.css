@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+	height: 300px;
+	position:relative;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#title {
+	background-color: #6B7A8F;
+}
+
+#heroPicture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 70%;
+}
+
+#dragonPicture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+p {
+	text-align: center;
+}
+
+h1 {
+	padding-top: 10px;
+	color: #DCC7AA;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+ 
+#actionButton {
+	border: none;
+	color: white;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #F7882F;
+	border-radius: 8px;
+}
+
+#actionButton:hover {
+	background: #F7C331;
+}
+
+#resetButton {
+	border: none;
+	color: white;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #F7882F;
+	border-radius: 8px;
+}
+
+#resetButton:hover {
+	background-color: #F7C331;
+}
+
+#buttonsWrapper {
+	position:absolute;
+	bottom:10px;
+	margin: 0 auto;
+	left: 30%;
+}
+
+#footer {
+	margin-top: 10px;
+	padding-bottom: 5px;
+}
+
+#footer p {
+	text-align: justify;
+	padding-left: 20px;
+}

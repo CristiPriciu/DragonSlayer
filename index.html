@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<head>
+	<title>Dragon Slayer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="dragonSlayer.js"></script> 
+</head>
+<body>
+  <div id="title">
+    <h1>Dragon Slayer</h1>
+    <div class="row">
+      <div class="column" style="background-color:#ffffff;">
+        <h2>The Hero</h2>
+        <img id="heroPicture" src="img/hero.jpg" alt="hero picture">
+      </div>
+      <div class="column" style="background-color:#DCC7AA;">
+        <h2>The battle</h2>
+        <p id="text1"></p>
+        <p id="text2"></p>
+        <p id="text3"></p>
+        <div id="buttonsWrapper">
+          <button id="actionButton" onclick="myAttack()">Attack!</button>
+          <button id="resetButton" onclick="myReset()">Reset</button>
+        </div>
+      </div>
+      <div class="column" style="background-color:#ffffff;">
+        <h2>The Dragon</h2>
+        <img id="dragonPicture" src="img/dragon.jpg" alt="dragon picture">
+      </div>
+    </div>
+    <div id="footer">
+      <p>Click the attack button to roll a chance of 50% to hit the Big Bad Dragon for 1 to 5 damage. If you do more than 3 damage, you win!</p>
+      <p>This is my first Javascript game. Initially a project for 
+      <a href="https://www.codecademy.com/CristiPriciu" target="_blank">Codecademy</a>, i made it work on a browser, something Codecademy does not teach.</p>
+      <p>Check out <a href="https://github.com/CristiPriciu" target="_blank">my account</a> on GitHub to see some of my other stuff!</p>
+      </div>
+    </body>
+    </html>
